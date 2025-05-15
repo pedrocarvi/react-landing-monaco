@@ -1,0 +1,70 @@
+/* MusicaEnVivoSection.css */
+.musica-section {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Izquierda: imagen */
+  .musica-image {
+    flex: 1 1 50%;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Derecha: contenido */
+  .musica-content {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .musica-logo {
+    width: 80px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .musica-title {
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #b07e4b;
+    margin-bottom: 1rem;
+  }
+  
+  .musica-text {
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: #ccc;
+  }
+  
+  .btn-musica {
+    display: inline-block;
+    background-color: #b07e4b;
+    color: #000;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: opacity 0.2s;
+  }
+  .btn-musica:hover {
+    opacity: 0.85;
+  }
+  
+  /* Responsivo: apilar en móvil */
+  @media (max-width: 768px) {
+    .musica-section {
+      flex-direction: column;
+    }
+    .musica-image {
+      min-height: 250px;
+    }
+  }
+  

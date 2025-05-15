@@ -1,0 +1,102 @@
+/* Footer.css */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 3rem 2rem 1.5rem;
+    font-family: sans-serif;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Columnas */
+  .footer-col {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Logo y descripción */
+  .footer-logo {
+    width: 120px;
+    margin-bottom: 1rem;
+  }
+  .footer-desc {
+    line-height: 1.6;
+    color: #ccc;
+    margin-bottom: 1rem;
+  }
+  
+  /* Redes sociales */
+  .footer-socials a {
+    display: inline-block;
+    margin-right: 0.75rem;
+    font-size: 1.2rem;
+    color: #fff;
+    transition: color 0.2s;
+  }
+  .footer-socials a:hover {
+    color: #d4af37;
+  }
+  
+  /* Encabezados de columna */
+  .footer-heading {
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+  }
+  
+  /* Listas de enlaces y elementos */
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .footer-links li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+  }
+  .footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .footer-links a:hover {
+    color: #fff;
+  }
+  
+  /* Horarios: día y hora en una línea */
+  .footer-links .day {
+    display: inline-block;
+    width: 100px;
+    color: #ccc;
+  }
+  .footer-links .time {
+    color: #ccc;
+  }
+  
+  /* Barra inferior */
+  .footer-bottom {
+    text-align: center;
+    border-top: 1px solid #222;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .footer-content {
+      grid-template-columns: 1fr;
+    }
+    .footer-logo {
+      margin: 0 auto 1rem;
+    }
+    .footer-socials {
+      text-align: center;
+    }
+  }
+  

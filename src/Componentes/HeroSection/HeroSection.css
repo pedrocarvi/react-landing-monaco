@@ -1,0 +1,69 @@
+/* HeroSection.css */
+.hero-section {
+    position: relative;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-content {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 0 1rem;
+    max-width: 800px;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .btn {
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #b07e4b;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #9a6b3e;
+  }
+  
+  .btn-secondary {
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  .btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
