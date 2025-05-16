@@ -4,7 +4,7 @@ import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock } from 'react-icons/fa';
 import './UbicacionContacto.css';
 
 const UbicacionContacto = () => (
-  <section className="ubicacion-section">
+  <section className="ubicacion-section" id='ubicación-y-contacto'>
     <h2 className="ubicacion-title">
       <FaMapMarkerAlt className="title-icon" />
       Ubicación y Contacto

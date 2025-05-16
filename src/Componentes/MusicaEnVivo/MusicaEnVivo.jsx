@@ -6,7 +6,7 @@ import Logo from '../../assets/img/monaco_logo.webp';
 
 const MusicaEnVivoSection = () => {
   return (
-    <section className="musica-section">
+    <section className="musica-section" id='musica-en-vivo'>
       <div
         className="musica-image"
         style={{ backgroundImage: `url(${MusicaImg})` }}

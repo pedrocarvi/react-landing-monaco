@@ -6,7 +6,7 @@ import Logo from '../../assets/img/monaco_logo.webp';
 
 const EventosSection = () => {
   return (
-    <section className="eventos-section">
+    <section className="eventos-section" id='eventos-y-festejos'>
       {/* Primero el contenido, para que quede a la izquierda */}
       <div className="eventos-content">
         <img src={Logo} alt="Logo Griller" className="eventos-logo" />

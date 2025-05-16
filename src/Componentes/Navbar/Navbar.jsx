@@ -4,7 +4,7 @@ import MonacoLogo from "../../assets/img/monaco_logo.webp";
 import InstagramIcon from "../../assets/icons/instagram.png";
 import { FaInstagram } from "react-icons/fa";
 
-const menuItems = ['MENU', 'CATAS Y DEGUSTACIONES', 'EVENTOS Y FESTEJOS', 'MUSICA EN VIVO', 'UBICACIÓN', 'CONTACTO'];
+const menuItems = ['MENU', 'CATAS Y DEGUSTACIONES', 'EVENTOS Y FESTEJOS', 'MUSICA EN VIVO', 'UBICACIÓN Y CONTACTO'];
 
 export default function Navbar() {
   return (
@@ -20,7 +20,7 @@ export default function Navbar() {
         <div className="navbar-menu">
           {menuItems.map((item, idx) => (
             <React.Fragment key={item}>
-              <a href={`/${item.replace(/\s+/g, '-').toLowerCase()}`}>{item}</a>
+              <a href={`#${item.replace(/\s+/g, '-').toLowerCase()}`}>{item}</a>
               {idx < menuItems.length - 1 && <span>|</span>}
             </React.Fragment>
           ))}

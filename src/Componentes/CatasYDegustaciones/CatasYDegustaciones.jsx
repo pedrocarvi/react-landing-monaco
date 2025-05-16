@@ -6,7 +6,7 @@ import MonacoLogo from '../../assets/img/monaco_logo.webp';
 
 const CatasSection = () => {
   return (
-    <section className="catas-section">
+    <section className="catas-section" id='catas-y-degustaciones'>
       <div
         className="catas-image"
         style={{ backgroundImage: `url(${CataImg})` }}
