@@ -2,6 +2,7 @@ import React from 'react';
 import './Navbar.css';
 import MonacoLogo from "../../assets/img/monaco_logo.webp";
 import InstagramIcon from "../../assets/icons/instagram.png";
+import { FaInstagram } from "react-icons/fa";
 
 const menuItems = ['MENU', 'CATAS Y DEGUSTACIONES', 'EVENTOS Y FESTEJOS', 'MUSICA EN VIVO', 'UBICACIÓN', 'CONTACTO'];
 
@@ -28,7 +29,7 @@ export default function Navbar() {
         {/* Social + CTA */}
         <div className="navbar-social">
           <a href="https://www.instagram.com/monacobar.ba/" target="_blank" rel="noopener noreferrer">
-            <img src={InstagramIcon} alt="Instagram" />
+            <FaInstagram fill='#FFFFFF' />
           </a>
           <button className="navbar-button">Reservar</button>
         </div>

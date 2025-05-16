@@ -3,13 +3,16 @@
     color: #fff;
     padding: 2rem;
     font-family: sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
   }
   
   .ubicacion-title {
     display: flex;
     align-items: center;
-    font-size: 2rem;
-    color: #d4af37;
+    font-size: 24px;
+    font-weight: 400;
+    color: #A67C52;
     margin-bottom: 1.5rem;
   }
   
@@ -27,7 +30,7 @@
   /* Card de Información */
   .info-card {
     flex: 1 1 45%;
-    background-color: #1a1a1a;
+    background-color: #151515;
     border-radius: 8px;
     padding: 1.5rem;
   }
@@ -43,14 +46,14 @@
   }
   
   .info-icon {
-    color: #d4af37;
+    color: #A67C52;
     margin-right: 0.75rem;
     font-size: 1.25rem;
     flex-shrink: 0;
   }
   
   .info-label {
-    font-weight: 600;
+    font-weight: 500;
     display: block;
   }
   
@@ -75,7 +78,7 @@
   /* Card de Reservas */
   .reservas-card {
     margin-top: 2rem;
-    background-color: #1a1a1a;
+    background-color: #151515;
     border-radius: 8px;
     padding: 1.5rem;
   }
@@ -87,12 +90,12 @@
   
   .btn-reservar {
     display: inline-block;
-    background-color: #d4af37;
-    color: #000;
+    background-color: #A67C52;
+    color: #FFFFFF;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
-    font-weight: 600;
-    border-radius: 4px;
+    font-weight: 400;
+    border-radius: 0px;
     transition: opacity 0.2s ease;
   }
   

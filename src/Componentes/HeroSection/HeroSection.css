@@ -1,69 +1,88 @@
-/* HeroSection.css */
 .hero-section {
-    position: relative;
-    height: 90vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  position: relative;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  padding: 0 1rem;
+  max-width: 800px;
+  opacity: 0; /* Inicialmente ocultamos el contenido para la animación */
+  animation: fadeInAnimation 1s ease forwards; /* Animación de fade-in */
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(20px); /* Opcional: agregar un ligero efecto de desplazamiento */
   }
-  
-  .hero-overlay {
-    position: absolute;
-    inset: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .hero-content {
-    position: relative;
-    text-align: center;
-    color: #fff;
-    padding: 0 1rem;
-    max-width: 800px;
-  }
-  
-  .hero-title {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .hero-subtitle {
-    font-size: 1.25rem;
-    margin-bottom: 1.5rem;
-    opacity: 0.9;
-  }
-  
-  .hero-buttons {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .btn {
-    padding: 0.75rem 1.5rem;
-    text-decoration: none;
-    font-weight: 500;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn-primary {
-    background-color: #b07e4b;
-    color: #fff;
-  }
-  
-  .btn-primary:hover {
-    background-color: #9a6b3e;
-  }
-  
-  .btn-secondary {
-    border: 2px solid #fff;
-    color: #fff;
-  }
-  
-  .btn-secondary:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-  }
-  
+}
+
+.hero-title {
+  font-size: 32px;
+  margin-bottom: 0.5rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.hero-subtitle {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  padding: 12px 24px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.btn-primary {
+  background-color: #A67C52;
+  color: #fff;
+  border-radius: 0px;
+}
+
+.btn-primary:hover {
+  background-color: #9a6b3e;
+}
+
+.btn-secondary {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 0px;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
