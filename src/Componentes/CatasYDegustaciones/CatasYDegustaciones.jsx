@@ -22,8 +22,8 @@ const CatasSection = () => {
           Sumergite en una experiencia sensorial única, ideal para grupos,
           eventos privados y amantes del buen beber.
         </p>
-        <a href="/catas" className="btn-catas">
-          Ver catas &gt;
+        <a href="https://api.whatsapp.com/message/PAE4HS65ESLJG1?autoload=1&app_absent=0" className="btn-catas">
+          Consultar por WhatsApp &gt;
         </a>
       </div>
     </section>

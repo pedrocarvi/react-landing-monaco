@@ -7,6 +7,7 @@ import Menu from './Componentes/Menu/Menu';
 import MusicaEnVivoSection from './Componentes/MusicaEnVivo/MusicaEnVivo';
 import Navbar from './Componentes/Navbar/Navbar';
 import UbicacionContacto from './Componentes/UbicaciónContacto/UbicacionContacto';
+import WhatsAppButton from './Componentes/WhatsappButton/WhatsappButton';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <MusicaEnVivoSection/>
         <UbicacionContacto/>
         <Footer/>
+        <WhatsAppButton/>
     </div>
   );
 }

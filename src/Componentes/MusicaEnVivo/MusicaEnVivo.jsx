@@ -21,9 +21,9 @@ const MusicaEnVivoSection = () => {
           disfruta de géneros que van del jazz al rock, acompañados de nuestra
           carta de cócteles y una selección de vinos exclusivos.
         </p>
-        <a href="/musica-en-vivo" className="btn-musica">
+        {/* <a href="/musica-en-vivo" className="btn-musica">
           Ver programación &gt;
-        </a>
+        </a> */}
       </div>
     </section>
   );
