@@ -14,10 +14,10 @@ const HeroSection = () => {
       <div className="hero-content">
         <h1 className="hero-title">Mónaco Bar & Grill</h1>
         <p className="hero-subtitle">
-          Descubrí nuestros cuatro pisos: una bodega de vinos selectos, barra de autor, dos niveles para cenas sofisticadas y una terraza con vistas panorámicas.
+          Descubrí nuestros cuatro pisos: Bodega de vinos selectos, barra de autor, dos niveles para cenas sofisticadas y una terraza con barra rodeada de verde.
         </p>
         <div className="hero-buttons">
-          <a href="#!" className="btn btn-primary">
+          <a href="https://api.whatsapp.com/message/PAE4HS65ESLJG1?autoload=1&app_absent=0" className="btn btn-primary">
             Reservá ahora
           </a>
           <a href="#!" className="btn btn-secondary">

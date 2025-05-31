@@ -7,10 +7,13 @@ const Menu = () => {
     <section className="menu-section" id='menu'>
       <div className="menu-header">
         <h2>Nuestro Menú</h2>
+        <p style={{textAlign: 'center'}}> Explora nuestro menú y descubre una fusión perfecta de ingredientes frescos y técnicas culinarias innovadoras. Nuestros chefs expertos preparan cada platillo con pasión y creatividad, garantizando una experiencia gastronómica que superará tus expectativas.</p>
+        <div className="menu-footer">
+        <button className="btn-view-menu">Ver menú completo</button>
+      </div>
       </div>
 
-      <div className="menu-grid">
-        {/* Columna Entradas */}
+      {/* <div className="menu-grid">
         <div className="menu-column">
           <h3 className="section-title">Entradas</h3>
           <ul>
@@ -41,7 +44,6 @@ const Menu = () => {
           </ul>
         </div>
 
-        {/* Columna Platos Principales */}
         <div className="menu-column">
           <h3 className="section-title">Platos Principales</h3>
           <ul>
@@ -71,11 +73,7 @@ const Menu = () => {
             </li>
           </ul>
         </div>
-      </div>
-
-      <div className="menu-footer">
-        <button className="btn-view-menu">Ver menú completo</button>
-      </div>
+      </div> */}
     </section>
   );
 };

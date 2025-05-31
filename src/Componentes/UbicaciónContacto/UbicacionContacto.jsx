@@ -20,7 +20,8 @@ const UbicacionContacto = () => (
           <div>
             <span className="info-label">Dirección</span>
             <span className="info-detail">
-              Av. Alvear 1891, Recoleta<br />
+              Juana Azurduy 2299 - Nuñez 
+              <br />
               Buenos Aires, Argentina
             </span>
           </div>
@@ -30,7 +31,7 @@ const UbicacionContacto = () => (
           <FaPhone className="info-icon" />
           <div>
             <span className="info-label">Teléfono</span>
-            <span className="info-detail">+54 11 4808-2100</span>
+            <span className="info-detail">+54 9 11 2251 5831 </span>
           </div>
         </div>
 
@@ -38,7 +39,7 @@ const UbicacionContacto = () => (
           <FaEnvelope className="info-icon" />
           <div>
             <span className="info-label">Email</span>
-            <span className="info-detail">reservas@restauranteluxury.com.ar</span>
+            <span className="info-detail">info@monacobar.com.ar</span>
           </div>
         </div>
 
@@ -48,7 +49,7 @@ const UbicacionContacto = () => (
             <span className="info-label">Horarios</span>
             <span className="info-detail">
               Martes a Domingo<br />
-              19:00 – 00:00
+              20:00 – 02:00
             </span>
           </div>
         </div>
@@ -74,7 +75,7 @@ const UbicacionContacto = () => (
       <p className="reservas-text">
         Para garantizar su mesa, recomendamos realizar su reserva con anticipación.
       </p>
-      <a href="/reservas" className="btn-reservar">
+      <a href="https://api.whatsapp.com/message/PAE4HS65ESLJG1?autoload=1&app_absent=0" className="btn-reservar">
         Reservar ahora
       </a>
     </div>

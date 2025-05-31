@@ -53,16 +53,8 @@ const Footer = () => {
               <span className="time">Cerrado</span>
             </li>
             <li>
-              <span className="day">Martes - Jueves</span>
-              <span className="time">19:00 – 00:00</span>
-            </li>
-            <li>
-              <span className="day">Viernes - Sábado</span>
-              <span className="time">19:00 – 01:00</span>
-            </li>
-            <li>
-              <span className="day">Domingo</span>
-              <span className="time">19:00 – 23:00</span>
+              <span className="day">Martes - Domingo </span>
+              <span className="time">20:00 – 02:00</span>
             </li>
           </ul>
         </div>
@@ -71,16 +63,16 @@ const Footer = () => {
         <div className="footer-col">
           <h4 className="footer-heading">Contacto</h4>
           <ul className="footer-links">
-            <li>Av. Alvear 1891, Recoleta</li>
+            <li>Juana Azurduy 2299 - Nuñez</li>
             <li>Buenos Aires, Argentina</li>
-            <li>+54 11 4808-2100</li>
-            <li>reservas@restauranteluxury.com.ar</li>
+            <li>+54 9 11 2251 5831</li>
+            <li>info@monacobar.com.ar</li>
           </ul>
         </div>
       </div>
 
       <div className="footer-bottom">
-        © {new Date().getFullYear()} Luxury Restaurant. Todos los derechos reservados.
+        © {new Date().getFullYear()} Mónaco Bar & Grill. Todos los derechos reservados.
       </div>
     </footer>
   );

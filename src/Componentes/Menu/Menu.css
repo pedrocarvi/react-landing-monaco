@@ -10,8 +10,19 @@
   
   .menu-header {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    gap: 20px;
+    padding: 40px 0px;
+  }
+
+  .menu-header h2 {
+    margin: 0px;
+  }
+
+  .menu-header p {
+    margin: 0px;
   }
   
   .menu-icon {
@@ -74,7 +85,6 @@
   
   .menu-footer {
     text-align: center;
-    margin-top: 2rem;
   }
   
   .btn-view-menu {

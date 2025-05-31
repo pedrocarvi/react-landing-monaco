@@ -12,9 +12,11 @@ const EventosSection = () => {
         <img src={Logo} alt="Logo Griller" className="eventos-logo" />
         <h2 className="eventos-title">Eventos Exclusivos</h2>
         <p className="eventos-text">
-          Únete a nuestros eventos únicos: desde maridajes íntimos, cenas temáticas
-          y noches de coctelería a cargo de mixólogos invitados. Cada experiencia
-          está diseñada para sorprender tu paladar y celebrar el fuego como protagonista.
+        En el corazón de Núñez, Mónaco Bar es el escenario ideal para tus eventos más especiales. Ofrecemos un espacio exclusivo que combina elegancia, calidez y una propuesta gastronómica de alto nivel, pensada para sorprender.
+        <br /> <br />
+        Tanto si se trata de una reunión corporativa, un lanzamiento de producto, una celebración privada o un encuentro social, contamos con opciones personalizadas que se adaptan a cada necesidad. Nuestro equipo te acompaña en cada detalle: ambientación, música, menú a medida, coctelería de autor y un servicio atento y profesional.
+        <br /> <br />
+        Convertí tu evento en una experiencia memorable en un entorno único, rodeado de buena energía, sabores inolvidables y el toque distintivo de Núñez.
         </p>
         <a href="https://api.whatsapp.com/message/PAE4HS65ESLJG1?autoload=1&app_absent=0" className="btn-eventos">
           Consultar por WhatsApp &gt;
