@@ -96,6 +96,7 @@
     border-radius: 0px;
     cursor: pointer;
     transition: opacity 0.2s ease;
+    font-size: 16px;
   }
   
   .btn-view-menu:hover {

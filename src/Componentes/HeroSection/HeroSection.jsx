@@ -20,7 +20,7 @@ const HeroSection = () => {
           <a href="https://api.whatsapp.com/message/PAE4HS65ESLJG1?autoload=1&app_absent=0" className="btn btn-primary">
             Reservá ahora
           </a>
-          <a href="#!" className="btn btn-secondary">
+          <a href="#menu" className="btn btn-secondary">
             Conocer más
           </a>
         </div>

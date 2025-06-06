@@ -20,15 +20,15 @@ const Footer = () => {
             Una experiencia gastronómica exclusiva en el corazón de Buenos Aires.
           </p>
           <div className="footer-socials">
-            <a href="#!" aria-label="Facebook">
+            {/* <a href="#!" aria-label="Facebook">
               <FaFacebookF />
-            </a>
-            <a href="#!" aria-label="Instagram">
+            </a> */}
+            <a href="https://www.instagram.com/monacobar.ba/" aria-label="Instagram">
               <FaInstagram />
             </a>
-            <a href="#!" aria-label="Twitter">
+            {/* <a href="#!" aria-label="Twitter">
               <FaTwitter />
-            </a>
+            </a> */}
           </div>
         </div>
 
