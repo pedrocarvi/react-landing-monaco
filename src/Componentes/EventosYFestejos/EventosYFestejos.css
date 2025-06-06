@@ -65,7 +65,7 @@
   /* Responsivo: en pantallas chicas apilar */
   @media (max-width: 768px) {
     .eventos-section {
-      flex-direction: column;
+      flex-direction: column-reverse;
     }
     .eventos-image {
       min-height: 250px;

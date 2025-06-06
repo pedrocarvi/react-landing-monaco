@@ -141,6 +141,9 @@
       flex-direction: column;
     }
     .map-container {
-      min-height: 250px;
+      min-height: 150px;
+    }
+    .map-container iframe {
+      height: 300px;
     }
   }
