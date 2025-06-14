@@ -22,9 +22,9 @@ const MusicaEnVivoSection = () => {
         <br /> <br />
         Una experiencia sensorial completa, donde el sonido acompaña cada momento.
         </p>
-        {/* <a href="/musica-en-vivo" className="btn-musica">
-          Ver programación &gt;
-        </a> */}
+        <a href="https://api.whatsapp.com/message/PAE4HS65ESLJG1?autoload=1&app_absent=0" className="btn-eventos">
+          Consultar por WhatsApp &gt;
+        </a>
       </div>
     </section>
   );

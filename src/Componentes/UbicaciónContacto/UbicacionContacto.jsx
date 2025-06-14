@@ -75,7 +75,7 @@ const UbicacionContacto = () => (
       <p className="reservas-text">
         Para garantizar su mesa, recomendamos realizar su reserva con anticipación.
       </p>
-      <a href="https://api.whatsapp.com/message/PAE4HS65ESLJG1?autoload=1&app_absent=0" className="btn-reservar">
+      <a href="https://monacobar.meitre.com/" className="btn-reservar">
         Reservar ahora
       </a>
     </div>
