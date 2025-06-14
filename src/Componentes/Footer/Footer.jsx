@@ -48,13 +48,13 @@ const Footer = () => {
         <div className="footer-col">
           <h4 className="footer-heading">Horarios</h4>
           <ul className="footer-links">
-            <li>
+            {/* <li>
               <span className="day">Lunes</span>
               <span className="time">Cerrado</span>
-            </li>
+            </li> */}
             <li>
-              <span className="day">Martes - Domingo </span>
-              <span className="time">20:00 – 02:00</span>
+              <span> Martes a Sábados <br /> </span>
+              <span>20:00 – 02:00</span>
             </li>
           </ul>
         </div>

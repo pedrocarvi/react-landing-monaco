@@ -48,7 +48,7 @@ const UbicacionContacto = () => (
           <div>
             <span className="info-label">Horarios</span>
             <span className="info-detail">
-              Martes a Domingo<br />
+              Martes a Sábados<br />
               20:00 – 02:00
             </span>
           </div>
