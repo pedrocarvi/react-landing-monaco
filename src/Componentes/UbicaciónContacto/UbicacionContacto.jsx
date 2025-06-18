@@ -20,7 +20,7 @@ const UbicacionContacto = () => (
           <div>
             <span className="info-label">Dirección</span>
             <span className="info-detail">
-              Juana Azurduy 2299 - Nuñez 
+              Juana Azurduy 2299 - Núñez 
               <br />
               Buenos Aires, Argentina
             </span>

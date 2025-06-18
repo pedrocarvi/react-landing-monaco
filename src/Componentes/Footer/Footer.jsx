@@ -63,7 +63,7 @@ const Footer = () => {
         <div className="footer-col">
           <h4 className="footer-heading">Contacto</h4>
           <ul className="footer-links">
-            <li>Juana Azurduy 2299 - Nuñez</li>
+            <li>Juana Azurduy 2299 - Núñez</li>
             <li>Buenos Aires, Argentina</li>
             <li>+54 9 11 2251 5831</li>
             <li>info@monacobar.com.ar</li>
