@@ -53,7 +53,7 @@ const Footer = () => {
               <span className="time">Cerrado</span>
             </li> */}
             <li>
-              <span> Martes a Sábados <br /> </span>
+              <span> Miércoles a Sábados <br /> </span>
               <span>20:00 – 02:00</span>
             </li>
           </ul>
@@ -65,7 +65,7 @@ const Footer = () => {
           <ul className="footer-links">
             <li>Juana Azurduy 2299 - Núñez</li>
             <li>Buenos Aires, Argentina</li>
-            <li>+54 9 11 2251 5831</li>
+            <li>+54 9 11 6422-1778</li>
             <li>info@monacobar.com.ar</li>
           </ul>
         </div>

@@ -31,7 +31,7 @@ const UbicacionContacto = () => (
           <FaPhone className="info-icon" />
           <div>
             <span className="info-label">Teléfono</span>
-            <span className="info-detail">+54 9 11 2251 5831 </span>
+            <span className="info-detail">+54 9 11 6422-1778 </span>
           </div>
         </div>
 
@@ -48,7 +48,7 @@ const UbicacionContacto = () => (
           <div>
             <span className="info-label">Horarios</span>
             <span className="info-detail">
-              Martes a Sábados<br />
+            Miércoles a Sábados <br />
               20:00 – 02:00
             </span>
           </div>

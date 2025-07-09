@@ -7,7 +7,7 @@ const WhatsAppButton = () => {
     // const message = 'Hola, estoy interesado en importar para mi empresa.';
     // const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
 
-    const whatsappUrl = "https://api.whatsapp.com/message/PAE4HS65ESLJG1?autoload=1&app_absent=0"
+    const whatsappUrl = "https://wa.link/shu3p8"
 
     const handleClick = () => {
         window.open(whatsappUrl, '_blank');

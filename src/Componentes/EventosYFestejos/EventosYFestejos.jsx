@@ -18,7 +18,7 @@ const EventosSection = () => {
         <br /> <br />
         Convertí tu evento en una experiencia memorable en un entorno único, rodeado de buena energía, sabores inolvidables y el toque distintivo de Núñez.
         </p>
-        <a href="https://api.whatsapp.com/message/PAE4HS65ESLJG1?autoload=1&app_absent=0" target='_blank' id='monaco-wsp-btn' className="btn-eventos">
+        <a href="https://wa.link/shu3p8" target='_blank' id='monaco-wsp-btn' className="btn-eventos">
           Consultar por WhatsApp &gt;
         </a>
       </div>
