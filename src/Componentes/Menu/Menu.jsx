@@ -9,7 +9,7 @@ const Menu = () => {
         <h2>Nuestro Menú</h2>
         <p style={{textAlign: 'center'}}> Explora nuestro menú y descubre una fusión perfecta de ingredientes frescos y técnicas culinarias innovadoras. Nuestros chefs expertos preparan cada platillo con pasión y creatividad, garantizando una experiencia gastronómica que superará tus expectativas.</p>
         <div className="menu-footer">
-        <a href="https://drive.google.com/file/d/1YM2kneZmMC4-nPR3n3Y_WR1iyE_x8WB-/view?usp=drivesdkp">
+        <a href="https://wa.link/rw8vkz" target='_blank'>
           <button className="btn-view-menu">Ver menú completo</button>
         </a>
       </div>
